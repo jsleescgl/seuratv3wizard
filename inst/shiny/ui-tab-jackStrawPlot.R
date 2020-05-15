@@ -17,7 +17,7 @@ tabItem(tabName =  "jackStrawPlot",
                                
                                p("To overcome the extensive technical noise in any single gene for scRNA-seq data, Seurat clusters cells based on their PCA scores, with each PC essentially representing a ‘metagene’ that combines information across a correlated gene set. Determining how many PCs to include downstream is therefore an important step."),
                                
-                               p("PC selection – identifying the true dimensionality of a dataset – is an important step for Seurat, but can be challenging/uncertain for the user. We therefore suggest these three approaches to consider."),
+                               # p("PC selection – identifying the true dimensionality of a dataset – is an important step for Seurat, but can be challenging/uncertain for the user. We therefore suggest these three approaches to consider."),
                                p(" The first is more supervised, exploring PCs to determine relevant sources of heterogeneity, and could be used in conjunction with GSEA for example."),
                                p("The second implements a statistical test based on a random null model, but is time-consuming for large datasets, and may not return a clear PC cutoff."),
                                p("The third is a heuristic that is commonly used, and can be calculated instantly."),
